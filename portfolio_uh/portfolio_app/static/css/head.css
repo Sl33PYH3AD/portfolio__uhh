@@ -9,25 +9,25 @@ header {
   }
 
   .carousel-item {
-	background-color: #28096387;
+	background-color: #0b031b87;
   }
   
   #first-slide {
-	background-image: url(../gang.jpg);
+	background-image: url(../img/SNOW.jpg);
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
   }
   
   #second-slide {
-	background-image: url(../gang2.jpg);
+	background-image: url(../img/BoxieAndBitHumanDesign.png);
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
   }
   
   #third-slide {
-	background-image: url(../gang3.jpg);
+	background-image: url(../gang.jpg);
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
