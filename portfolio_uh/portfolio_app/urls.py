@@ -17,5 +17,6 @@ urlpatterns = [
     path('feedback/', views.feedback, name='feedback'),
     path('reg/', views.reg, name='reg'),
     path('acc/', views.acc, name='acc'),
+    path('works/', views.works, name='works'),
 ] 
 

@@ -90,3 +90,10 @@ def acc(request):
         return render(request, 'portfolio_uh/acc.html', context)
     except AttributeError as e:
         return render(request, 'portfolio_uh/acc.html')
+    
+def works(request):
+        try:
+            context = { 'username' : request.user.username }
+            return render(request, 'portfolio_uh/works.html', context)         
+        except AttributeError as e:
+            return render(request, 'portfolio_uh/works.html')
